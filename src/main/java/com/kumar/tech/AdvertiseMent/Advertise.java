@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Advertise {
     @GetMapping("/notice")
     public static String display(){
-        return "Please contact me for advertisementt";
+        return "Please contact me for advertisement";
 
     }
 }
